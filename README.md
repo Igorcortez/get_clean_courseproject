@@ -19,12 +19,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   3)Uses descriptive activity names to name the activities in the data set
   4)Appropriately labels the data set with descriptive variable names. 
   5)From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  ##What you`ll find in this repository:
+  
+  ### What you`ll find in this repository:
+  
   CodeBook.md : information about raw and tidy data set and elaboration made to transform.
   README.md: this file. 
   run_analysis.R: R script to transform raw data set in a tidy one. 
   
-  ##How to create the tidy data set
+  ### How to create the tidy data set:
   1) download compressed raw data
   2) unzip the raw data and copy the directory UCI HAR DATASET to the cloned repository root directory
   3)Open the R Console and set working directory to the repository root using setwd() command
